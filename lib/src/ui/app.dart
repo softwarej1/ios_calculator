@@ -69,7 +69,7 @@ class _AppState extends State<App> {
 
   void _calculateResult() {
     double _previousNumber = convertStringToDouble(previousNumber);
-    double _currentNumber = convertStringToDouble(previousNumber);
+    double _currentNumber = convertStringToDouble(currentNumber);
 
     switch (selectedOperation) {
       case '÷':
